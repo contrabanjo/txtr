@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "webpack-dev-server --open --hot --mode development",
-    "build": "webpack --mode production"
+    "start": "nodemon server/index.js",
+    "build": "webpack -d -w"
   },
   "author": "Corrie Grimshaw",
   "license": "ISC",
@@ -15,15 +15,24 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "webpack": "^4.38.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "@material-ui/core": "^4.3.0"
+    "@fullcalendar/core": "^4.3.1",
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/react": "^4.3.0",
+    "@material-ui/core": "^4.3.0",
+    "bootstrap": "^4.3.1",
+    "nodemon": "^1.19.1"
   }
 }
