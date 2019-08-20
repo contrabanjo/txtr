@@ -7,10 +7,10 @@ import ContactInfo from "./components/contactInfo.jsx"
 import AboutUs from "./components/aboutUs.jsx";
 import SizedPhotoViewer from "./components/carousel/sizedPhotoViewer.jsx"
 import Calendar from "./components/calendar/calendar.jsx";
-
+import SermonPlayer from "./components/sermonPlayer/sermonPlayer.jsx"
 
 const App = () => {
-  const [page, setPage] = useState("calendar")
+  const [page, setPage] = useState("sermons")
 
   function renderPage(){
     switch(page){
@@ -22,6 +22,8 @@ const App = () => {
         return <Calendar/>
       case 'pictures':
         return <SizedPhotoViewer/>
+      case 'sermons':
+        return <SermonPlayer/>
       default:
         return <ContactInfo/>
     }
