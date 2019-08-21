@@ -10,7 +10,7 @@ import Calendar from "./components/calendar/calendar.jsx";
 import SermonPlayer from "./components/sermonPlayer/sermonPlayer.jsx"
 
 const App = () => {
-  const [page, setPage] = useState("sermons")
+  const [page, setPage] = useState("home")
 
   function renderPage(){
     switch(page){

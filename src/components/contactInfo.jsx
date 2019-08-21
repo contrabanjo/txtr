@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from './map.jsx'
 
 export default function ContactInfo(props){
   return (
@@ -14,7 +15,7 @@ export default function ContactInfo(props){
 
      </div>
 
-     <img style={{height: '500px', width: '500px'}} src="images/map.png"/>
+     <img style={{height: '500px', width: '500px'}} src="images/map.jpg"/>
 
      <div className="mx-5">
       <p className="font-weight-bold">Location:</p>
