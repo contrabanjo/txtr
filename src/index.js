@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Welcome from './components/welcome.jsx'
+import TextEntry from './components/textEntry.jsx'
 
 const App = () => {
 
   return <div>
-      <Welcome/>
+      <TextEntry/>
     </div>;
 };
 
