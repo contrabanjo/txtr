@@ -1,2 +1,2 @@
 node_modules
-/src/components/twilio_keys.json
+/server/twilio_keys.json
