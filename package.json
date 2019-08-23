@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "troyscrm",
   "version": "1.0.0",
-  "description": "",
+  "description": "crm ",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -15,16 +15,28 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.19.0",
+=======
+    "@fullcalendar/core": "^4.3.1",
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/react": "^4.3.0",
+    "@material-ui/core": "^4.3.0",
+    "@react-google-maps/api": "^1.5.4",
+>>>>>>> parent of f51ce3a... Remove unecessary packages
     "bootstrap": "^4.3.1",
     "nodemon": "^1.19.1",
     "twilio": "^3.33.4"
